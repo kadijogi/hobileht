@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 10px;
+
+}
+body {
+    font-family: serif;
+    line-height: 1.7em;
+
+}
+
+a {
+    color: rgb(86, 84, 84);
+    text-decoration: none;
+}
+
+h1,h2 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#navbar {
+  background: #FDF3FF;
+  overflow: auto;
+}
+#navbar a {
+  color: #565454;
+}
+#navbar ul {
+  float: right;
+  list-style: none;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current {
+  background: #565454;
+  color: #FDF3FF;
+}
+#navbar h1 {
+  padding-top: 20px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* näidis
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 37px;
+
+position: absolute;
+width: 383.33px;
+height: 76px;
+left: 876.67px;
+top: 37px;
+
+*/
