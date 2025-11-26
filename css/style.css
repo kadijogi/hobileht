@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 10px;
+    
 
 }
 body {
     font-family: serif;
     line-height: 1.7em;
+    background: #FDF3FF;
 
 }
 
@@ -20,10 +22,13 @@ h1,h2 {
 }
 
 #navbar {
-  background: #FDF3FF;
+  border-radius: 2em;
+  display: grid;
+  background: #f2d2f8;
   overflow: auto;
 }
 #navbar a {
+  border-radius: 20%;
   color: #565454;
 }
 #navbar ul {
@@ -48,11 +53,19 @@ h1,h2 {
   float: left;
 }
 
+.pealkiri {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
+.image {
+display: flex;
+}
 
-
-
-
+.image img {
+  width: 100%;
+}
 
 
 
