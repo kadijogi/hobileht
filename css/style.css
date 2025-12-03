@@ -1,24 +1,22 @@
 * {
-    margin: 0;
-    padding: 10px;
-    
-
+  margin: 0;
+  padding: 10px;
 }
 body {
-    font-family: serif;
-    line-height: 1.7em;
-    background: #FDF3FF;
-
+  font-family: serif;
+  line-height: 1.7em;
+  background: #fdf3ff;
 }
 
 a {
-    color: rgb(86, 84, 84);
-    text-decoration: none;
+  color: rgb(86, 84, 84);
+  text-decoration: none;
 }
 
-h1,h2 {
-    padding-bottom: 20px;
-    padding-top: 20px;
+h1,
+h2 {
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 #navbar {
@@ -46,7 +44,7 @@ h1,h2 {
 #navbar ul li a:hover,
 #navbar ul li a.current {
   background: #565454;
-  color: #FDF3FF;
+  color: #fdf3ff;
 }
 #navbar h1 {
   padding-top: 20px;
@@ -60,28 +58,66 @@ h1,h2 {
 }
 
 .image {
-display: flex;
+  display: flex;
 }
 
 .image img {
   width: 100%;
 }
 .box {
-  background: #FDF3FF;
+  background: #fdf3ff;
   border-style: groove;
   display: flex;
 }
 
 
 
-
-
-
-
-
-
-
-
+body {
+  background: #fdf3ff;
+  font-family: "Georgia", serif;
+}
+header {
+  background: #fbefff;
+  padding: 20px 0;
+}
+.logo {
+  font-size: 32px;
+  font-weight: 600;
+}
+.nav-btn {
+  background: #ffcde8;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-left: 10px;
+  border: none;
+}
+.hero img {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.product-card {
+  background: white;
+  border-radius: 18px;
+  padding: 25px 15px;
+  text-align: center;
+}
+.product-card img {
+  width: 120px;
+}
+.review-row {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+.footer {
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+.contact-icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
 
 
 
