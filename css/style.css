@@ -3,9 +3,9 @@
   padding: 10px;
 }
 body {
-  font-family: serif;
   line-height: 1.7em;
   background: #fdf3ff;
+  font-family: "Georgia", serif;
 }
 
 a {
@@ -57,51 +57,50 @@ h2 {
   font-style: normal;
 }
 
-.image {
-  display: flex;
+.hero {
+  display: grid;
+  padding: 40px 0;
 }
 
-.image img {
-  width: 100%;
+.hero-img {
+  align-items: right;
+  width: 70%;
+  max-width: 900px;
 }
+
+.hero-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #b54a8b;
+  line-height: 1.3;
+}
+
 .box {
   background: #fdf3ff;
   border-style: groove;
   display: flex;
 }
 
-
-
-body {
-  background: #fdf3ff;
-  font-family: "Georgia", serif;
-}
 header {
-  background: #fbefff;
   padding: 20px 0;
 }
 .logo {
   font-size: 32px;
   font-weight: 600;
 }
-.nav-btn {
-  background: #ffcde8;
-  border-radius: 20px;
-  padding: 5px 20px;
-  margin-left: 10px;
-  border: none;
+
+.column {
+  columns: 3;
 }
-.hero img {
-  width: 100%;
-  border-radius: 12px;
-  object-fit: cover;
-}
+
 .product-card {
+  display:;
   background: white;
   border-radius: 18px;
   padding: 25px 15px;
   text-align: center;
 }
+
 .product-card img {
   width: 120px;
 }
@@ -118,11 +117,24 @@ header {
   font-size: 20px;
   margin-right: 10px;
 }
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  background: #fff;
+  padding: 8px 16px;
+  z-index: 100;
+  text-decoration: none;
+  border: 1px solid #000;
+}
 
+.skip-link:focus {
+  top: 0;
+}
 
-
-
-
+.nupp {
+  
+}
 
 /* näidis
 
